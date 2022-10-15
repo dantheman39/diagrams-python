@@ -1,0 +1,8 @@
+name: diagrams-python
+channels:
+  - conda-forge
+dependencies:
+  - python~=3.10.4
+  - poetry~=1.1.15
+  - graphviz~=6.0.1
+

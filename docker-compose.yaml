@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  run:
+    build: .
+    image: dantheman39/diagrams-python
+    volumes:
+      - "./input:/app/input"
+      - "./output:/app/output"
